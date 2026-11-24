@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Menu — OXY'S | Pizzas, Tacos, Burgers, Sandwichs & Plats</title>
+<meta name="description" content="Menu complet OXY'S : pizzas (M · Semi · Mega), tacos, burgers, pannozzo, sandwichs, paninis, poutines, plats, gratins, salades, sauces et suppléments. Prix en DA.">
+<meta name="theme-color" content="#0d0b0a">
+<link rel="icon" href="assets/img/favicon.png?v=3" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=16">
+</head>
+<body>
+
+<header class="header" id="top">
+  <div class="wrap header-in">
+    <a href="index.html" class="brand">
+      <img class="brand-logo" src="assets/img/logo.webp?v=4" alt="Logo OXY'S">
+      <span class="brand-name">OXY<span>'</span>S<span class="brand-sub">Good food · Great memories</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Accueil</a>
+      <a href="menu.html" class="active">Le Menu</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-primary" href="tel:+213564428502">📞 0564 42 85 02</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span></button>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">120 produits · Prix en DA</span>
+    <h1>Le Menu <em>OXY'S</em></h1>
+    <p>Pizzas, tacos, burgers, pannozzo, sandwichs, paninis, poutines, plats, boissons fraîches et bien plus encore — préparés à la minute, tous les jours de 10h30 à minuit.</p>
+  </div>
+</section>
+
+<div class="chips-wrap">
+  <div class="wrap chips" id="chips">
+    <button class="chip active" data-filter="all">Tout</button>
+    <button class="chip" data-filter="pizzas">🍕 Pizzas</button>
+    <button class="chip" data-filter="tacos">🌮 Tacos</button>
+    <button class="chip" data-filter="fast">🍔 Burgers &amp; Pannozzo</button>
+    <button class="chip" data-filter="sandwichs">🥪 Sandwichs &amp; Paninis</button>
+    <button class="chip" data-filter="plats">🍽️ Plats &amp; Poutines</button>
+    <button class="chip" data-filter="frais">🥗 Gratins &amp; Salades</button>
+    <button class="chip" data-filter="extras">🧂 Sauces &amp; Suppléments</button>
+    <button class="chip" data-filter="boissons">🥤 Boissons</button>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- ================= PIZZAS ================= -->
+  <section class="menu-section" id="pizzas" data-cat="pizzas">
+    <div class="ms-head">
+      <span class="ico">🍕</span>
+      <h2>Pizzas</h2>
+      <span class="nb">14 recettes · 3 formats</span>
+      <p>Trois tailles : <strong>M</strong>, <strong>Semi</strong> et <strong>Mega</strong> — le format Mega est fait pour être partagé.</p>
+    </div>
+    <table class="price-table">
+      <thead>
+        <tr><th>Pizza</th><th>M (DA)</th><th>Semi (DA)</th><th>Mega (DA)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Marguerite</td><td>400</td><td>—</td><td>—</td></tr>
+        <tr><td>Végétarien</td><td>500</td><td>900</td><td>1600</td></tr>
+        <tr><td>Poulet</td><td>650</td><td>1300</td><td>1800</td></tr>
+        <tr><td>Poulet fumé</td><td>750</td><td>1300</td><td>1800</td></tr>
+        <tr><td>Thon</td><td>700</td><td>1300</td><td>1800</td></tr>
+        <tr><td>Viande hachée</td><td>800</td><td>1500</td><td>2200</td></tr>
+        <tr><td>Napolitaine</td><td>850</td><td>1600</td><td>2500</td></tr>
+        <tr><td>Champignons</td><td>700</td><td>1300</td><td>1900</td></tr>
+        <tr><td>Viande champignons</td><td>900</td><td>1500</td><td>2100</td></tr>
+        <tr><td>Thon champignons</td><td>800</td><td>1300</td><td>1900</td></tr>
+        <tr><td>OXY'S duo</td><td>900</td><td>1600</td><td>2200</td></tr>
+        <tr><td>4 fromages</td><td>900</td><td>1900</td><td>2300</td></tr>
+        <tr><td>4 saisons</td><td>900</td><td>1600</td><td>2500</td></tr>
+        <tr><td><strong>OXY'S</strong> <span class="note">La signature de la maison</span></td><td>1000</td><td>1800</td><td>2600</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================= TACOS ================= -->
+  <section class="menu-section" id="tacos" data-cat="tacos">
+    <div class="ms-head">
+      <span class="ico">🌮</span>
+      <h2>Tacos</h2>
+      <span class="nb">7 recettes · 3 formats</span>
+      <p>Formats <strong>M</strong>, <strong>L</strong> et <strong>XL</strong> — avec sauce fromage OXY'S.</p>
+    </div>
+    <table class="price-table">
+      <thead>
+        <tr><th>Tacos</th><th>M (DA)</th><th>L (DA)</th><th>XL (DA)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Poulet mariné</td><td>450</td><td>650</td><td>800</td></tr>
+        <tr><td>Poulet haché</td><td>400</td><td>600</td><td>700</td></tr>
+        <tr><td>Poulet pané</td><td>500</td><td>650</td><td>750</td></tr>
+        <tr><td>Shawarma</td><td>450</td><td>650</td><td>800</td></tr>
+        <tr><td>Viande hachée</td><td>550</td><td>700</td><td>850</td></tr>
+        <tr><td>Mixte de viande</td><td>600</td><td>750</td><td>900</td></tr>
+        <tr><td>Kebda</td><td>550</td><td>700</td><td>850</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================= BURGERS & PANNOZZO ================= -->
+  <section class="menu-section" id="pannozzo" data-cat="fast">
+    <div class="ms-head">
+      <span class="ico">🍔</span>
+      <h2>Burgers &amp; Pannozzo</h2>
+      <span class="nb">14 produits</span>
+      <p>Le pain maison d'OXY'S, la viande préparée à la minute et la sauce de votre choix.</p>
+    </div>
+    <div class="table-pair">
+      <div>
+        <div class="sub-title">🥙 Menu Pannozzo</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Pannozzo poulet mariné</td><td>450 DA</td></tr>
+            <tr><td>Pannozzo poulet fumé</td><td>500 DA</td></tr>
+            <tr><td>Pannozzo Shawarma</td><td>450 DA</td></tr>
+            <tr><td>Pannozzo viande hachée</td><td>550 DA</td></tr>
+            <tr><td>Pannozzo quatre fromages</td><td>500 DA</td></tr>
+            <tr><td>Pannozzo poulet pané</td><td>450 DA</td></tr>
+            <tr><td>Pannozzo kebda</td><td>600 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="burgers">
+        <div class="sub-title">🍔 Menu Burger</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Burger poulet</td><td>250 DA</td></tr>
+            <tr><td>Burger viande</td><td>300 DA</td></tr>
+            <tr><td>Burger poulet pané</td><td>350 DA</td></tr>
+            <tr><td>Burger double poulet</td><td>400 DA</td></tr>
+            <tr><td>Burger double viande</td><td>450 DA</td></tr>
+            <tr><td><strong>OXY'S burger</strong> <span class="note">La signature de la maison</span></td><td>550 DA</td></tr>
+            <tr><td>Burger pain maison</td><td>600 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SANDWICHS ================= -->
+  <section class="menu-section" id="sandwichs" data-cat="sandwichs">
+    <div class="ms-head">
+      <span class="ico">🥪</span>
+      <h2>Sandwichs</h2>
+      <span class="nb">15 produits</span>
+      <p>Les classiques du midi et les versions gratinées « Golden ».</p>
+    </div>
+    <div class="table-pair">
+      <div>
+        <div class="sub-title">🥪 Menu Sandwich</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Sandwich chicken</td><td>300 DA</td></tr>
+            <tr><td>Sandwich mariné</td><td>350 DA</td></tr>
+            <tr><td>Sandwich poulet pané</td><td>400 DA</td></tr>
+            <tr><td>Sandwich Shawarma</td><td>300 DA</td></tr>
+            <tr><td>Libanais Shawarma</td><td>350 DA</td></tr>
+            <tr><td>Sandwich viande hachée</td><td>450 DA</td></tr>
+            <tr><td>Sandwich kebda</td><td>350 DA</td></tr>
+            <tr><td>Sandwich mixte</td><td>550 DA</td></tr>
+            <tr><td>Sandwich Shawarma plus</td><td>550 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="sandwichs-gratines">
+        <div class="sub-title">🧀 Menu Sandwich Gratiné — Golden</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Le golden meat</td><td>600 DA</td></tr>
+            <tr><td>Le golden chicken</td><td>450 DA</td></tr>
+            <tr><td>Le Golden Fried</td><td>550 DA</td></tr>
+            <tr><td>Golden Shawarma</td><td>500 DA</td></tr>
+            <tr><td>Golden OXY'S</td><td>650 DA</td></tr>
+            <tr><td>Golden kebda</td><td>650 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PANINIS ================= -->
+  <section class="menu-section" id="paninis" data-cat="sandwichs">
+    <div class="ms-head">
+      <span class="ico">🥯</span>
+      <h2>Paninis</h2>
+      <span class="nb">7 produits</span>
+      <p>Grillés à la pression, servis bien chauds.</p>
+    </div>
+    <table class="price-table">
+      <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+      <tbody>
+        <tr><td>Panini thon</td><td>300 DA</td></tr>
+        <tr><td>Panini poulet mariné</td><td>300 DA</td></tr>
+        <tr><td>Panini poulet fumé</td><td>350 DA</td></tr>
+        <tr><td>Panini viande hachée</td><td>350 DA</td></tr>
+        <tr><td>Panini Shawarma</td><td>300 DA</td></tr>
+        <tr><td>Panini poulet pané</td><td>350 DA</td></tr>
+        <tr><td>Panini 4 fromages</td><td>350 DA</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================= POUTINES & PLATS ================= -->
+  <section class="menu-section" id="plats" data-cat="plats">
+    <div class="ms-head">
+      <span class="ico">🍽️</span>
+      <h2>Poutines &amp; Plats</h2>
+      <span class="nb">14 produits</span>
+      <p>Des plats complets, servis avec frites ou garniture.</p>
+    </div>
+    <div class="table-pair">
+      <div id="poutines">
+        <div class="sub-title">🥧 Menu Poutine</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Poutine poulet mariné</td><td>400 DA</td></tr>
+            <tr><td>Poutine poulet pané</td><td>450 DA</td></tr>
+            <tr><td>Poutine viande hachée</td><td>500 DA</td></tr>
+            <tr><td>Poutine poulet fumé</td><td>450 DA</td></tr>
+            <tr><td>Poutine quatre fromages</td><td>550 DA</td></tr>
+            <tr><td>Poutine OXY'S</td><td>650 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="plats-menu">
+        <div class="sub-title">🥘 Menu Plat</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Plat Shawarma</td><td>650 DA</td></tr>
+            <tr><td>Plat poulet mariné</td><td>700 DA</td></tr>
+            <tr><td>Plat poulet pané</td><td>750 DA</td></tr>
+            <tr><td>Plat escalope grillée</td><td>700 DA</td></tr>
+            <tr><td>Plat escalope à la crème</td><td>850 DA</td></tr>
+            <tr><td>Plat cordon-bleu</td><td>800 DA</td></tr>
+            <tr><td>Plat steak haché</td><td>950 DA</td></tr>
+            <tr><td>Plat kebda</td><td>900 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GRATINS & SALADES ================= -->
+  <section class="menu-section" id="extras" data-cat="frais">
+    <div class="ms-head">
+      <span class="ico">🥗</span>
+      <h2>Gratins &amp; Salades</h2>
+      <span class="nb">7 produits</span>
+      <p>Chaud et fondant d'un côté, frais et croquant de l'autre.</p>
+    </div>
+    <div class="table-pair">
+      <div id="gratins">
+        <div class="sub-title">🧀 Menu Gratin</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Gratin poulet mariné</td><td>450 DA</td></tr>
+            <tr><td>Gratin viande hachée</td><td>550 DA</td></tr>
+            <tr><td>Gratin quatre fromages</td><td>550 DA</td></tr>
+            <tr><td>Gratin maison</td><td>650 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="salades">
+        <div class="sub-title">🥬 Menu Salade</div>
+        <table class="price-table">
+          <thead><tr><th>Variété</th><th>Prix</th></tr></thead>
+          <tbody>
+            <tr><td>Croquettes camembert</td><td>500 DA</td></tr>
+            <tr><td>Rillettes de thon</td><td>550 DA</td></tr>
+            <tr><td>OXY'S verte</td><td>650 DA</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SAUCES & SUPPLÉMENTS ================= -->
+  <section class="menu-section" id="sauces" data-cat="extras">
+    <div class="ms-head">
+      <span class="ico">🧂</span>
+      <h2>Sauces &amp; Suppléments</h2>
+      <span class="nb">12 options</span>
+      <p>Ajoutez votre touche finale : sauces au choix et suppléments fromage.</p>
+    </div>
+
+    <div class="sub-title">💧 Sauces OXY'S</div>
+    <div class="chip-list" style="margin-bottom:26px">
+      <span class="item">Ketchup</span>
+      <span class="item">Barbecue</span>
+      <span class="item">Algérienne</span>
+      <span class="item">Piquantes</span>
+      <span class="item">Gruyère</span>
+    </div>
+
+    <div class="sub-title" id="supplements">➕ Suppléments</div>
+    <table class="price-table">
+      <thead><tr><th>Supplément</th><th>Prix</th></tr></thead>
+      <tbody>
+        <tr><td>Cheddar</td><td>200 DA</td></tr>
+        <tr><td>Camembert</td><td>200 DA</td></tr>
+        <tr><td>Mozzarella</td><td>150 DA</td></tr>
+        <tr><td>Gruyère</td><td>250 DA</td></tr>
+        <tr><td>Gouda</td><td>200 DA</td></tr>
+        <tr><td>Poulet fumé</td><td>200 DA</td></tr>
+        <tr><td>Barquette frites</td><td>150 DA</td></tr>
+      </tbody>
+    </table>
+
+    <p class="menu-note">💰 Tous les prix sont indiqués en dinars algérien (DA). <br>📱 Commande par téléphone au <a href="tel:+213564428502"><strong>0564 42 85 02</strong></a> ou sur <a href="https://wa.me/213564428502" target="_blank" rel="noopener"><strong>WhatsApp</strong></a> — sur place, à emporter ou en livraison.</p>
+  </section>
+
+  <!-- ================= BOISSONS ================= -->
+  <section class="menu-section" id="boissons" data-cat="boissons">
+    <div class="ms-head">
+      <span class="ico">🥤</span>
+      <h2>Boissons</h2>
+      <span class="nb">30 boissons</span>
+      <p>Eaux minérales, sodas, jus et boissons fraîches — servis bien frais, sur place, à emporter ou en livraison.</p>
+    </div>
+
+    <table class="price-table">
+      <thead><tr><th>Boisson</th><th>Prix</th></tr></thead>
+      <tbody>
+        <tr class="group-row"><td colspan="2">💧 Eaux</td></tr>
+        <tr><td>Eau Guedila 1,5 L</td><td>—</td></tr>
+        <tr><td>Eau Ariafe 0,5 L</td><td>—</td></tr>
+
+        <tr class="group-row"><td colspan="2">🥫 Canettes</td></tr>
+        <tr><td>Coca-Cola</td><td>—</td></tr>
+        <tr><td>Schweppes Ananas</td><td>—</td></tr>
+        <tr><td>Schweppes Grenadine</td><td>—</td></tr>
+        <tr><td>Hamoud Pomme</td><td>—</td></tr>
+        <tr><td>Hamoud Blanc</td><td>—</td></tr>
+        <tr><td>Hamoud Selecto</td><td>—</td></tr>
+        <tr><td>Hamoud Ananas</td><td>—</td></tr>
+
+        <tr class="group-row"><td colspan="2">🥤 Boissons petit format</td></tr>
+        <tr><td>Coca-Cola</td><td>—</td></tr>
+        <tr><td>Fanta Pomme</td><td>—</td></tr>
+        <tr><td>Fanta Orange</td><td>—</td></tr>
+        <tr><td>Fanta Fraise</td><td>—</td></tr>
+        <tr><td>Sprite</td><td>—</td></tr>
+        <tr><td>Schweppes Ananas</td><td>—</td></tr>
+        <tr><td>Hamoud Citron</td><td>—</td></tr>
+        <tr><td>Hamoud Pomme</td><td>—</td></tr>
+
+        <tr class="group-row"><td colspan="2">🍾 Boissons grand format</td></tr>
+        <tr><td>Coca-Cola</td><td>—</td></tr>
+        <tr><td>Slim Orange</td><td>—</td></tr>
+        <tr><td>Slim Bida</td><td>—</td></tr>
+        <tr><td>Hamoud Selecto</td><td>—</td></tr>
+        <tr><td>Slim Ananas</td><td>—</td></tr>
+        <tr><td>Fanta Fraise</td><td>—</td></tr>
+        <tr><td>Fanta Ananas</td><td>—</td></tr>
+
+        <tr class="group-row"><td colspan="2">🧃 Jus</td></tr>
+        <tr><td>Tchina Orange mini</td><td>—</td></tr>
+        <tr><td>Ifruit Orange mini</td><td>—</td></tr>
+        <tr><td>Ifruit Citron mini</td><td>—</td></tr>
+        <tr><td>Ifruit Raisin mini</td><td>—</td></tr>
+        <tr><td>Rouiba en carton mini</td><td>—</td></tr>
+
+        <tr class="group-row"><td colspan="2">🥛 Vichy</td></tr>
+        <tr><td>Vichy mini</td><td>—</td></tr>
+      </tbody>
+    </table>
+
+    <p class="menu-note">🥤 Prix des boissons : renseignez-vous au <a href="tel:+213564428502"><strong>0564 42 85 02</strong></a> — sur place, à emporter ou en livraison.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img class="brand-logo" src="assets/img/logo.webp?v=4" alt="Logo OXY'S">
+          <span class="brand-name">OXY<span>'</span>S<span class="brand-sub">Good food · Great memories</span></span>
+        </a>
+        <p>Pizzas, tacos, burgers, sandwichs et plats préparés à la minute à Dely Brahim, Alger.</p>
+      </div>
+      <div>
+        <h4>Visiter</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Notre carte</a></li>
+          <li><a href="index.html#galerie">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Nous trouver</h4>
+        <ul>
+          <li>Rue Abdelkrim Hamza</li>
+          <li>Dely Brahim, Alger</li>
+          <li>Tous les jours · 10h30 – 00h00</li>
+          <li><a href="tel:+213564428502">📞 0564 42 85 02</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> OXY'S — Tous droits réservés.</span>
+      <span>Good food · Great memories 🍕🌮🍔</span>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="cb-call" href="tel:+213564428502">Commandez rapidement 0564428502</a>
+</div>
+
+<script src="assets/js/main.js?v=2"></script>
+</body>
+</html>

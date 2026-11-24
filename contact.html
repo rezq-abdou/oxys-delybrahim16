@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — OXY'S | Dely Brahim, Alger · 0564 42 85 02</title>
+<meta name="description" content="Contactez OXY'S : Rue Abdelkrim Hamza, Dely Brahim, Alger. Tous les jours 10h30 – 00h00. Téléphone et WhatsApp : 0564 42 85 02. Livraison disponible.">
+<meta name="theme-color" content="#0d0b0a">
+<link rel="icon" href="assets/img/favicon.png?v=3" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=16">
+</head>
+<body>
+
+<header class="header" id="top">
+  <div class="wrap header-in">
+    <a href="index.html" class="brand">
+      <img class="brand-logo" src="assets/img/logo.webp?v=4" alt="Logo OXY'S">
+      <span class="brand-name">OXY<span>'</span>S<span class="brand-sub">Good food · Great memories</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Accueil</a>
+      <a href="menu.html">Le Menu</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a class="btn btn-primary" href="tel:+213564428502">📞 0564 42 85 02</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span></button>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">📞 0564 42 85 02</span>
+    <h1>Nous <em>contacter</em></h1>
+    <p>Une question, une commande ou un itinéraire : tout est ici. Livraison disponible, tous les jours de 10h30 à minuit.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+
+    <div class="info-grid" style="grid-template-columns:1fr">
+      <div class="info-card reveal">
+        <div class="ico">📍</div>
+        <h3>Adresse</h3>
+        <p class="strong">Rue Abdelkrim Hamza</p>
+        <p>Dely Brahim, Alger — Algérie</p>
+        <a class="link" href="https://maps.apple.com/place?address=Rue%20Abdelkrim%20Hamza,%20Dely%20Brahim,%20Algeria&coordinate=36.760766,2.976706&name=Rue%20Abdelkrim%20Hamza&map=explore" target="_blank" rel="noopener">Ouvrir dans Apple Plans →</a><br>
+        <a class="link" href="https://www.google.com/maps/search/?api=1&query=Rue+Abdelkrim+Hamza,+Dely+Brahim,+Algeria" target="_blank" rel="noopener">Ouvrir dans Google Maps →</a>
+      </div>
+
+      <div class="info-card reveal">
+        <div class="ico">🕐</div>
+        <h3>Horaires</h3>
+        <div class="hours-row"><span>Lundi – Dimanche</span><span>10h30 – 00h00</span></div>
+        <div class="hours-row"><span>Service</span><span>Continu 7j/7</span></div>
+      </div>
+
+      <div class="info-card reveal">
+        <div class="ico">🛵</div>
+        <h3>Commander</h3>
+        <p><span class="strong">Sur place · À emporter · Livraison.</span><br>Appelez-nous ou écrivez sur WhatsApp, la commande est prise immédiatement.</p>
+        <a class="link" href="tel:+213564428502">📞 0564 42 85 02 →</a><br>
+        <a class="link" href="https://wa.me/213564428502" target="_blank" rel="noopener">💬 WhatsApp →</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="map reveal">
+        <iframe
+          src="https://www.google.com/maps?q=Rue%20Abdelkrim%20Hamza%2C%20Dely%20Brahim%2C%20Algeria&output=embed"
+          loading="lazy" title="Carte — OXY'S, Dely Brahim"
+          referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+
+      <div class="info-card reveal" id="commande-message" style="margin-top:22px">
+        <div class="ico">✍️</div>
+        <h3>Envoyer une commande par message</h3>
+        <form class="form" id="orderForm" novalidate>
+          <div class="row">
+            <div>
+              <label for="nom">Votre nom</label>
+              <input id="nom" name="nom" type="text" placeholder="Ex : Karim" required>
+            </div>
+            <div>
+              <label for="tel">Téléphone</label>
+              <input id="tel" name="tel" type="tel" placeholder="05 XX XX XX XX" inputmode="numeric" maxlength="17" required>
+            </div>
+          </div>
+          <div>
+            <label for="zone">Livraison où ?</label>
+            <select id="zone" name="zone" required>
+              <option value="">Choisir un quartier…</option>
+              <option>Dely Brahim centre</option>
+              <option>Aïn Allah</option>
+              <option>Bois des Cars</option>
+              <option>Sidi Yahia</option>
+              <option>Hydra</option>
+              <option>Ben Aknoun</option>
+              <option>Bouchaoui</option>
+              <option>Chéraga</option>
+              <option>Ouled Fayet</option>
+              <option>El Achour</option>
+              <option>Les Grands Vents</option>
+              <option>Les Sources</option>
+              <option>Autre (à préciser)</option>
+            </select>
+          </div>
+          <div>
+            <label for="msg">Votre commande</label>
+            <textarea id="msg" name="msg" placeholder="Ex : 1 pizza Marguerite M, 1 tacos poulet L, 2 boissons…" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Envoyer sur WhatsApp →</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2>Commande rapide en un appel</h2>
+      <p>Pour une commande immédiate, le téléphone reste le plus simple — nous répondons tous les jours de 10h30 à minuit.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:+213564428502">📞 0564 42 85 02</a>
+        <a class="btn btn-gold" href="index.html#univers">Voir la carte</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img class="brand-logo" src="assets/img/logo.webp?v=4" alt="Logo OXY'S">
+          <span class="brand-name">OXY<span>'</span>S<span class="brand-sub">Good food · Great memories</span></span>
+        </a>
+        <p>Pizzas, tacos, burgers, sandwichs et plats préparés à la minute à Dely Brahim, Alger.</p>
+      </div>
+      <div>
+        <h4>Visiter</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Notre carte</a></li>
+          <li><a href="index.html#galerie">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Nous trouver</h4>
+        <ul>
+          <li>Rue Abdelkrim Hamza</li>
+          <li>Dely Brahim, Alger</li>
+          <li>Tous les jours · 10h30 – 00h00</li>
+          <li><a href="tel:+213564428502">📞 0564 42 85 02</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> OXY'S — Tous droits réservés.</span>
+      <span>Good food · Great memories 🍕🌮🍔</span>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="cb-call" href="tel:+213564428502">Commandez rapidement 0564428502</a>
+</div>
+
+<script src="assets/js/main.js?v=2"></script>
+</body>
+</html>
